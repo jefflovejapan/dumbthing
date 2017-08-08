@@ -14,6 +14,7 @@
 		1F6982801F3A3CCE007646CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F69827E1F3A3CCE007646CE /* LaunchScreen.storyboard */; };
 		1F69828B1F3A3CCE007646CE /* DumbThingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69828A1F3A3CCE007646CE /* DumbThingTests.swift */; };
 		1F6982961F3A3CCE007646CE /* DumbThingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6982951F3A3CCE007646CE /* DumbThingUITests.swift */; };
+		1F6982A41F3A3DEA007646CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6982A31F3A3DEA007646CE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1F6982911F3A3CCE007646CE /* DumbThingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbThingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6982951F3A3CCE007646CE /* DumbThingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbThingUITests.swift; sourceTree = "<group>"; };
 		1F6982971F3A3CCE007646CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6982A31F3A3DEA007646CE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1F6982751F3A3CCE007646CE /* AppDelegate.swift */,
 				1F6982771F3A3CCE007646CE /* ViewController.swift */,
+				1F6982A31F3A3DEA007646CE /* Extensions.swift */,
 				1F6982791F3A3CCE007646CE /* Main.storyboard */,
 				1F69827C1F3A3CCE007646CE /* Assets.xcassets */,
 				1F69827E1F3A3CCE007646CE /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6982781F3A3CCE007646CE /* ViewController.swift in Sources */,
+				1F6982A41F3A3DEA007646CE /* Extensions.swift in Sources */,
 				1F6982761F3A3CCE007646CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
