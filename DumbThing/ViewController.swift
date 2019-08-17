@@ -64,7 +64,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if indexPath.row == 4 {
             DispatchQueue.global(qos: .userInitiated).asyncAfter(deadline: .now() + .milliseconds(300)) {
                 DispatchQueue.main.async {
+                    tableView.beginUpdates()
                     cell.vConstraint.constant = 300
+                    tableView.endUpdates()
                 }
             }
         }
